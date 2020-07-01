@@ -1,3 +1,12 @@
 [remote "origin"]
 	url = git@github.com:n8henrie/pycookiecheat.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "github"]
+	url = git@github.com:huangyingw/pycookiecheat.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[branch "dev.fix"]
+	remote = github
+	merge = refs/heads/dev.fix
+[push]
+    remote = github
+
