@@ -9,4 +9,6 @@
 	merge = refs/heads/dev.fix
 [push]
     remote = github
-
+[gsync]
+    remote = origin
+    branch = master
